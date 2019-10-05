@@ -1,0 +1,1011 @@
+>> ex6_spam
+
+Preprocessing sample email (emailSample1.txt)
+
+ ==================== Raw Email Contents =================
+
+> Anyone knows how much it costs to host a web portal ?
+>
+Well, it depends on how many visitors you're expecting.
+This can be anywhere from less than 10 bucks a month to a couple of $100.
+You should checkout http://www.rackspace.com/ or perhaps Amazon EC2
+if youre running something big..
+
+To unsubscribe yourself from this mailing list, send an email to:
+groupname-unsubscribe@egroups.com
+
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+> anyone knows how much it costs to host a web portal ?
+>
+well, it depends on how many visitors you're expecting.
+this can be anywhere from less than number bucks a month to a couple of dollarnumber.
+you should checkout httpaddr or perhaps amazon ecnumber
+if youre running something big..
+
+to unsubscribe yourself from this mailing list, send an email to:
+emailaddr
+
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+anyon know how much it cost to host a web portal well it depend on how mani
+visitor you re expect thi can be anywher from less than number buck a month
+to a coupl of dollarnumb you should checkout httpaddr or perhap amazon ecnumb
+if your run someth big to unsubscrib yourself from thi mail list send an
+email to emailaddr
+
+=========================
+Word Indices:
+ 86 916 794 1077 883 370 1699 790 1822 1831 883 431 1171 794 1002 1893 1364 592 
+ 1676 238 162 89 688 945 1663 1120 1062 1699 375 1162 479 1893 1510 799 1182 1237 
+ 810 1895 1440 1547 181 1699 1758 1896 688 1676 992 961 1477 71 530 1699 531
+
+Program paused. Press enter to continue.
+
+Extracting features from sample email (emailSample1.txt)
+
+ ==================== Raw Email Contents =================
+
+> Anyone knows how much it costs to host a web portal ?
+>
+Well, it depends on how many visitors you're expecting.
+This can be anywhere from less than 10 bucks a month to a couple of $100.
+You should checkout http://www.rackspace.com/ or perhaps Amazon EC2
+if youre running something big..
+
+To unsubscribe yourself from this mailing list, send an email to:
+groupname-unsubscribe@egroups.com
+
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+> anyone knows how much it costs to host a web portal ?
+>
+well, it depends on how many visitors you're expecting.
+this can be anywhere from less than number bucks a month to a couple of dollarnumber.
+you should checkout httpaddr or perhaps amazon ecnumber
+if youre running something big..
+
+to unsubscribe yourself from this mailing list, send an email to:
+emailaddr
+
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+anyon know how much it cost to host a web portal well it depend on how mani
+visitor you re expect thi can be anywher from less than number buck a month
+to a coupl of dollarnumb you should checkout httpaddr or perhap amazon ecnumb
+if your run someth big to unsubscrib yourself from thi mail list send an
+email to emailaddr
+
+=========================
+Length of feature vector: 1899
+Number of non-zero entries: 45
+Program paused. Press enter to continue.
+
+Training Linear SVM (Spam Classification)
+(this may take 1 to 2 minutes) ...
+
+Training ...
+...................................................................
+...............................................................................
+...............................................................................
+...................................................
+ Training Done!
+
+Training Accuracy: 99.850000
+
+Evaluating the trained Linear SVM on a test set ...
+Test Accuracy: 98.600000
+
+Top predictors of spam:
+ our             (0.496796)
+ click           (0.472523)
+ remov           (0.422218)
+ guarante        (0.386835)
+ visit           (0.369484)
+ basenumb        (0.348413)
+ dollar          (0.329005)
+ will            (0.267847)
+ price           (0.263136)
+ pleas           (0.260955)
+ nbsp            (0.258106)
+ lo              (0.253136)
+ most            (0.251920)
+ hour            (0.244063)
+ ga              (0.241603)
+
+
+
+Program paused. Press enter to continue.
+
+
+ ======================Trying different email==========
+
+ spamSample1.txt is Spam mail
+
+
+ ==================== Raw Email Contents =================
+
+Do You Want To Make $1000 Or More Per Week?
+
+
+
+If you are a motivated and qualified individual - I
+will personally demonstrate to you a system that will
+make you $1,000 per week or more! This is NOT mlm.
+
+
+
+Call our 24 hour pre-recorded number to get the
+details.
+
+
+
+000-456-789
+
+
+
+I need people who want to make serious money.  Make
+the call and get the facts.
+
+Invest 2 minutes in yourself now!
+
+
+
+000-456-789
+
+
+
+Looking forward to your call and I will introduce you
+to people like yourself who
+are currently making $10,000 plus per week!
+
+
+
+000-456-789
+
+
+
+3484lJGv6-241lEaN9080lRmS6-271WxHo7524qiyT5-438rjUv5615hQcf0-662eiDB9057dMtVl72
+
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+do you want to make dollarnumber or more per week?
+
+
+
+if you are a motivated and qualified individual - i
+will personally demonstrate to you a system that will
+make you dollarnumber,number per week or more! this is not mlm.
+
+
+
+call our number hour pre-recorded number to get the
+details.
+
+
+
+number-number-number
+
+
+
+i need people who want to make serious money.  make
+the call and get the facts.
+
+invest number minutes in yourself now!
+
+
+
+number-number-number
+
+
+
+looking forward to your call and i will introduce you
+to people like yourself who
+are currently making dollarnumber,number plus per week!
+
+
+
+number-number-number
+
+
+
+numberljgvnumber-numberleannumberlrmsnumber-numberwxhonumberqiytnumber-numberrjuvnumberhqcfnumber-numbereidbnumberdmtvlnumber
+
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+do you want to make dollarnumb or more per week if you ar a motiv and qualifi
+individu i will person demonstr to you a system that will make you dollarnumb
+number per week or more thi is not mlm call our number hour pre record number
+to get the detail number number number i need peopl who want to make seriou
+monei make the call and get the fact invest number minut in yourself now
+number number number look forward to your call and i will introduc you to
+peopl like yourself who ar current make dollarnumb number plu per week number
+number number numberljgvnumb numberleannumberlrmsnumb
+numberwxhonumberqiytnumb numberrjuvnumberhqcfnumb numbereidbnumberdmtvlnumb
+
+=========================
+
+ spamSample1.txt is Spam mail
+
+
+Processed spamSample1.txt
+
+Spam Classification: 1
+(1 indicates spam, 0 indicates not spam)
+
+
+
+
+Program paused. Press enter to continue.
+
+
+
+
+
+
+
+
+
+
+
+ spamSample2.txt is Spam mail
+
+ ==================== Raw Email Contents =================
+
+Best Buy Viagra Generic Online
+
+Viagra 100mg x 60 Pills $125, Free Pills & Reorder Discount, Top Selling 100% Quality & Satisfaction guaranteed!
+
+We accept VISA, Master & E-Check Payments, 90000+ Satisfied Customers!
+http://medphysitcstech.ru
+
+
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+best buy viagra generic online
+
+viagra numbermg x number pills dollarnumber, free pills & reorder discount, top selling number% quality & satisfaction guaranteed!
+
+we accept visa, master & e-check payments, number+ satisfied customers!
+httpaddr
+
+
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+best bui viagra gener onlin viagra numbermg x number pill dollarnumb free
+pill reorder discount top sell number qualiti satisfact guarante we accept
+visa master e check payment number satisfi custom httpaddr
+
+=========================
+
+ spamSample2.txt is Spam mail
+
+Processed spamSample2.txt
+
+Spam Classification: 1
+(1 indicates spam, 0 indicates not spam)
+
+
+
+
+Program paused. Press enter to continue.
+
+
+emailSample1.txt is NONSpam mail
+
+ ==================== Raw Email Contents =================
+
+> Anyone knows how much it costs to host a web portal ?
+>
+Well, it depends on how many visitors you're expecting.
+This can be anywhere from less than 10 bucks a month to a couple of $100.
+You should checkout http://www.rackspace.com/ or perhaps Amazon EC2
+if youre running something big..
+
+To unsubscribe yourself from this mailing list, send an email to:
+groupname-unsubscribe@egroups.com
+
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+> anyone knows how much it costs to host a web portal ?
+>
+well, it depends on how many visitors you're expecting.
+this can be anywhere from less than number bucks a month to a couple of dollarnumber.
+you should checkout httpaddr or perhaps amazon ecnumber
+if youre running something big..
+
+to unsubscribe yourself from this mailing list, send an email to:
+emailaddr
+
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+anyon know how much it cost to host a web portal well it depend on how mani
+visitor you re expect thi can be anywher from less than number buck a month
+to a coupl of dollarnumb you should checkout httpaddr or perhap amazon ecnumb
+if your run someth big to unsubscrib yourself from thi mail list send an
+email to emailaddr
+
+=========================
+
+emailSample1.txt is NONSpam mail
+
+Processed emailSample1.txt
+
+Spam Classification: 0
+(1 indicates spam, 0 indicates not spam)
+
+
+
+
+Program paused. Press enter to continue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+emailSample2.txt is NONSpam mail
+
+ ==================== Raw Email Contents =================
+
+Folks,
+
+my first time posting - have a bit of Unix experience, but am new to Linux.
+
+
+Just got a new PC at home - Dell box with Windows XP. Added a second hard disk
+for Linux. Partitioned the disk and have installed Suse 7.2 from CD, which went
+fine except it didn't pick up my monitor.
+
+I have a Dell branded E151FPp 15" LCD flat panel monitor and a nVidia GeForce4
+Ti4200 video card, both of which are probably too new to feature in Suse's default
+set. I downloaded a driver from the nVidia website and installed it using RPM.
+Then I ran Sax2 (as was recommended in some postings I found on the net), but
+it still doesn't feature my video card in the available list. What next?
+
+Another problem. I have a Dell branded keyboard and if I hit Caps-Lock twice,
+the whole machine crashes (in Linux, not Windows) - even the on/off switch is
+inactive, leaving me to reach for the power cable instead.
+
+If anyone can help me in any way with these probs., I'd be really grateful -
+I've searched the 'net but have run out of ideas.
+
+Or should I be going for a different version of Linux such as RedHat? Opinions
+welcome.
+
+Thanks a lot,
+Peter
+
+--
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+folks,
+
+my first time posting - have a bit of unix experience, but am new to linux.
+
+
+just got a new pc at home - dell box with windows xp. added a second hard disk
+for linux. partitioned the disk and have installed suse number.number from cd, which went
+fine except it didn't pick up my monitor.
+
+i have a dell branded enumberfpp number" lcd flat panel monitor and a nvidia geforcenumber
+tinumber video card, both of which are probably too new to feature in suse's default
+set. i downloaded a driver from the nvidia website and installed it using rpm.
+then i ran saxnumber (as was recommended in some postings i found on the net), but
+it still doesn't feature my video card in the available list. what next?
+
+another problem. i have a dell branded keyboard and if i hit caps-lock twice,
+the whole machine crashes (in linux, not windows) - even the on/off switch is
+inactive, leaving me to reach for the power cable instead.
+
+if anyone can help me in any way with these probs., i'd be really grateful -
+i've searched the 'net but have run out of ideas.
+
+or should i be going for a different version of linux such as redhat? opinions
+welcome.
+
+thanks a lot,
+peter
+
+--
+irish linux users' group: emailaddr
+httpaddr for (un)subscription information.
+list maintainer: emailaddr
+
+
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+folk my first time post have a bit of unix experi but am new to linux just
+got a new pc at home dell box with window xp ad a second hard disk for linux
+partit the disk and have instal suse number number from cd which went fine
+except it didn t pick up my monitor i have a dell brand enumberfpp number lcd
+flat panel monitor and a nvidia geforcenumb tinumb video card both of which
+ar probabl too new to featur in suse s default set i download a driver from
+the nvidia websit and instal it us rpm then i ran saxnumb as wa recommend in
+some post i found on the net but it still doesn t featur my video card in the
+avail list what next anoth problem i have a dell brand keyboard and if i hit
+cap lock twice the whole machin crash in linux not window even the on off
+switch is inact leav me to reach for the power cabl instead if anyon can help
+me in ani wai with these prob i d be realli grate i ve search the net but
+have run out of idea or should i be go for a differ version of linux such as
+redhat opinion welcom thank a lot peter irish linux user group emailaddr
+httpaddr for un subscript inform list maintain emailaddr
+
+=========================
+
+emailSample2.txt is NONSpam mail
+
+Processed emailSample2.txt
+
+Spam Classification: 0
+(1 indicates spam, 0 indicates not spam)
+
+
+
+
+Program paused. Press enter to continue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+my_spam1.txt is Spam mail
+
+ ==================== Raw Email Contents =================
+
+
+
+Your Life Partner is Right Here on KalyanMatrimony
+The New Generation Matrimony Portal for the All community
+Register Now
+- Lakhs of Brides & Grooms
+- Verified Profiles
+- Secure & Safe
+- Intelligent Compatibility Meter
+- Best-in-class, Built-in Search Engine
+- 1000s of New Profiles for Top Communities
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+
+
+your life partner is right here on kalyanmatrimony
+the new generation matrimony portal for the all community
+register now
+- lakhs of brides & grooms
+- verified profiles
+- secure & safe
+- intelligent compatibility meter
+- best-in-class, built-in search engine
+- numbers of new profiles for top communities
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+your life partner is right here on kalyanmatrimoni the new gener matrimoni
+portal for the all commun regist now lakh of bride groom verifi profil secur
+safe intellig compat meter best in class built in search engin number of new
+profil for top commun
+
+=========================
+
+my_spam1.txt is Spam mail
+
+Processed my_spam1.txt
+
+Spam Classification: 1
+(1 indicates spam, 0 indicates not spam)
+
+
+
+
+Program paused. Press enter to continue.
+
+my_email.txt is NONSpam mail
+warning: range error for conversion to character value
+warning: called from
+    readFile at line 11 column 33
+    ex6_spam at line 219 column 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ==================== Raw Email Contents =================
+
+LNT
+Larsen & Toubro Infotech Ltd.
+
+Greetings from Naukri.com!!
+
+Hi ANIL KUMAR,
+
+Your CV has been Shortlisted with Larsen and Toubro (LNT) for "Unix Shell Scripting - Production Support Profile " based out in Chennai.
+
+If you have:
+^@^@^@ 4 to 9 years of experience in IT
+^@^@^@ Experience in Unix with Shell Scripting
+^@^@^@ Experience in Production Support
+^@^@^@ Willing to meet interview panel in Weekdays for F2F
+
+Note: We are looking for only those candidates who can join in maximum 30 days or Currently serving Notice Period.
+
+Unix Shell Scripting Production support (Chennai):
+^@^@^@ Excellent L2 Production Support
+^@^@^@ Willing to support in 24 by 7 rotation as per the shift rooster Linux, shell scripting and Oracle as skillet
+^@^@^@ ITIL Certified preferred
+^@^@^@ Working knowledge of ITRS, Autosys, App dynamics, ServiceNow, Udeploy
+^@^@^@ Should be able to work in flexible and adaptable to business needs
+^@^@^@ Well versed with Incident life cycle management, Problem life cycle management and PMR process
+^@^@^@ Well versed with Change management, Releases and Deployments
+^@^@^@ Good eye to debug the root cause and provide a temporary and permanent solution
+^@^@^@ Coordinate with L3 and development team and provide and implement solutions
+^@^@^@ An understanding of DevOps will be an added advantage
+
+If interested, Please share your updated profile (Word format) along with the below details:
+
+Total Experience
+Relevant Experience in Unix Support
+Experience in Shell Scripting (Yes or No)
+Currently working on Production Support projects (Yes or No)
+CTC ( in LPA)
+Notice Period (in days) (should not be more than 30 days or Serving np) please mention
+
+
+Thanks and Regards,
+Nupur Kotnala
+Naukri.com (E-Hire)
+
+Naukri
+
+
+
+We are sending this mail as you have registered with naukri.com. Use this link, if you do not want to receive any further mails.
+
+
+
+
+
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+lnt
+larsen & toubro infotech ltd.
+
+greetings from naukri.com!!
+
+hi anil kumar,
+
+your cv has been shortlisted with larsen and toubro (lnt) for "unix shell scripting - production support profile " based out in chennai.
+
+if you have:
+^@^@^@ number to number years of experience in it
+^@^@^@ experience in unix with shell scripting
+^@^@^@ experience in production support
+^@^@^@ willing to meet interview panel in weekdays for fnumberf
+
+note: we are looking for only those candidates who can join in maximum number days or currently serving notice period.
+
+unix shell scripting production support (chennai):
+^@^@^@ excellent lnumber production support
+^@^@^@ willing to support in number by number rotation as per the shift rooster linux, shell scripting and oracle as skillet
+^@^@^@ itil certified preferred
+^@^@^@ working knowledge of itrs, autosys, app dynamics, servicenow, udeploy
+^@^@^@ should be able to work in flexible and adaptable to business needs
+^@^@^@ well versed with incident life cycle management, problem life cycle management and pmr process
+^@^@^@ well versed with change management, releases and deployments
+^@^@^@ good eye to debug the root cause and provide a temporary and permanent solution
+^@^@^@ coordinate with lnumber and development team and provide and implement solutions
+^@^@^@ an understanding of devops will be an added advantage
+
+if interested, please share your updated profile (word format) along with the below details:
+
+total experience
+relevant experience in unix support
+experience in shell scripting (yes or no)
+currently working on production support projects (yes or no)
+ctc ( in lpa)
+notice period (in days) (should not be more than number days or serving np) please mention
+
+
+thanks and regards,
+nupur kotnala
+naukri.com (e-hire)
+
+naukri
+
+
+
+we are sending this mail as you have registered with naukri.com. use this link, if you do not want to receive any further mails.
+
+
+
+
+
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+lnt larsen toubro infotech ltd greet from naukri com hi anil kumar your cv ha
+been shortlist with larsen and toubro lnt for unix shell script product
+support profil base out in chennai if you have number to number year of
+experi in it experi in unix with shell script experi in product support will
+to meet interview panel in weekdai for fnumberf note we ar look for onli
+those candid who can join in maximum number dai or current serv notic period
+unix shell script product support chennai excel lnumber product support will
+to support in number by number rotat as per the shift rooster linux shell
+script and oracl as skillet itil certifi prefer work knowledg of itr autosi
+app dynam servicenow udeploi should be abl to work in flexibl and adapt to
+busi need well vers with incid life cycl manag problem life cycl manag and
+pmr process well vers with chang manag releas and deploy good ey to debug the
+root caus and provid a temporari and perman solut coordin with lnumber and
+develop team and provid and implement solut an understand of devop will be an
+ad advantag if interest pleas share your updat profil word format along with
+the below detail total experi relev experi in unix support experi in shell
+script ye or no current work on product support project ye or no ctc in lpa
+notic period in dai should not be more than number dai or serv np pleas
+mention thank and regard nupur kotnala naukri com e hire naukri we ar send
+thi mail as you have regist with naukri com us thi link if you do not want to
+receiv ani further mail
+
+=========================
+
+my_email.txt is NONSpam mail
+
+Processed my_email.txt
+
+Spam Classification: 0
+(1 indicates spam, 0 indicates not spam)
+
+
+
+
+Program paused. Press enter to continue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+my_spam2.txt is Spam mail
+
+ ==================== Raw Email Contents =================
+
+From ilug-admin@linux.ie  Thu Aug 22 13:27:39 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: zzzz@localhost.spamassassin.taint.org
+Received: from localhost (localhost [127.0.0.1])
+        by phobos.labs.spamassassin.taint.org (Postfix) with ESMTP id A7FD7454F6
+        for <zzzz@localhost>; Thu, 22 Aug 2002 08:27:38 -0400 (EDT)
+Received: from phobos [127.0.0.1]
+        by localhost with IMAP (fetchmail-5.9.0)
+        for zzzz@localhost (single-drop); Thu, 22 Aug 2002 13:27:38 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7MCJiZ06043 for
+    <zzzz-ilug@jmason.org>; Thu, 22 Aug 2002 13:19:44 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA29323; Thu, 22 Aug 2002 13:18:52 +0100
+Received: from email.qves.com ([67.104.83.251]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA29282 for <ilug@linux.ie>; Thu,
+    22 Aug 2002 13:18:37 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [67.104.83.251] claimed to
+    be email.qves.com
+Received: from qvp0091 ([169.254.6.22]) by email.qves.com with Microsoft
+    SMTPSVC(5.0.2195.2966); Thu, 22 Aug 2002 06:18:18 -0600
+From: "Slim Down" <taylor@s3.serveimage.com>
+To: <ilug@linux.ie>
+Date: Thu, 22 Aug 2002 06:18:18 -0600
+Message-Id: <59e6301c249d5$ffb7ea20$1606fea9@freeyankeedom.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft CDO for Windows 2000
+Thread-Index: AcJJ1f+3FWdz11AmR6uWbmQN5gGxxw==
+Content-Class: urn:content-classes:message
+X-Mimeole: Produced By Microsoft MimeOLE V6.00.2462.0000
+X-Originalarrivaltime: 22 Aug 2002 12:18:18.0699 (UTC) FILETIME=[FFB949B0:01C249D5]
+Subject: [ILUG] Guaranteed to lose 10-12 lbs in 30 days 10.206
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+1) Fight The Risk of Cancer!
+http://www.adclick.ws/p.cfm?o=315&s=pk007
+
+2) Slim Down - Guaranteed to lose 10-12 lbs in 30 days
+http://www.adclick.ws/p.cfm?o=249&s=pk007
+
+3) Get the Child Support You Deserve - Free Legal Advice
+http://www.adclick.ws/p.cfm?o=245&s=pk002
+
+4) Join the Web's Fastest Growing Singles Community
+http://www.adclick.ws/p.cfm?o=259&s=pk007
+
+5) Start Your Private Photo Album Online!
+http://www.adclick.ws/p.cfm?o=283&s=pk007
+
+Have a Wonderful Day,
+Offer Manager
+PrizeMama
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you wish to leave this list please use the link below.
+http://www.qves.com/trim/?ilug@linux.ie%7C17%7C114258
+
+
+--
+Irish Linux Users' Group: ilug@linux.ie
+
+
+ ==========================================================
+
+
+ === Before Stem The Word and After preprocessing Email Contents Looks Like =====
+
+
+
+number) fight the risk of cancer!
+httpaddr
+
+number) slim down - guaranteed to lose number-number lbs in number days
+httpaddr
+
+number) get the child support you deserve - free legal advice
+httpaddr
+
+number) join the web's fastest growing singles community
+httpaddr
+
+number) start your private photo album online!
+httpaddr
+
+have a wonderful day,
+offer manager
+prizemama
+
+
+
+
+
+
+
+
+
+
+
+
+
+if you wish to leave this list please use the link below.
+httpaddr
+
+
+--
+irish linux users' group: emailaddr
+
+
+ =========================================================
+
+
+==== Processed Email ====
+
+number fight the risk of cancer httpaddr number slim down guarante to lose
+number number lb in number dai httpaddr number get the child support you
+deserv free legal advic httpaddr number join the web s fastest grow singl
+commun httpaddr number start your privat photo album onlin httpaddr have a
+wonder dai offer manag prizemama if you wish to leav thi list pleas us the
+link below httpaddr irish linux user group emailaddr
+
+=========================
+
+my_spam2.txt is Spam mail
+
+Processed my_spam2.txt
+
+Spam Classification: 1
+(1 indicates spam, 0 indicates not spam)
+
+
+
+
+Program paused. Press enter to continue.
+>>
